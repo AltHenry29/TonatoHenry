@@ -28,9 +28,6 @@ public class ventas extends JFrame{
         String cant=txtcant.getText();
 
         calcularButton.addActionListener(e ->  {
-            if (cod.equals("123")){
-
-            }
 
 
 

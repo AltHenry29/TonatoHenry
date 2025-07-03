@@ -36,9 +36,8 @@ public class login extends JFrame {
         });
 
         limpiarButton.addActionListener(e ->  {
-            textField1 : setTitle(" ");
-
-
+            textField1.setText(" ");
+            passwordField1.setText(" ");
         });
     }
 

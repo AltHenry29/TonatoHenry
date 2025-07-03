@@ -35,8 +35,11 @@ public class registro extends JFrame{
         });
 
         limpiarButton.addActionListener(e ->  {
-            String cod= txtcod.getText();
-            cod.replace("*"," ");
+            txtcod.setText(" ");
+            txtdet.setText(" ");
+            txtnom.setText(" ");
+            txtstk.setText(" ");
+            txtval.setText(" ");
 
         });
         REGRESARALMENUButton.addActionListener(e ->  {
